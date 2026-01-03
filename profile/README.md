@@ -45,7 +45,7 @@ mentu claim <commitment_id>
 mentu capture "Fixed null check in payment.ts:42" --kind evidence
 mentu close <commitment_id> --evidence <evidence_memory_id>
 
-## Repositories
+### Repositories
 	•	mentu: the protocol specification and core design
 	•	mentu-cli: the official CLI implementation
 
@@ -55,7 +55,7 @@ mentu close <commitment_id> --evidence <evidence_memory_id>
 	•	Tiered validation: optional policies in genesis.key to gate what can auto-close
 	•	Multi-agent accountability: patterns like the Dual Triad help separate creation from verification
 
-## Contributing
+### Contributing
 
 Issues and PRs are welcome. If you are proposing a new operation, state transition, or validator, include:
 	•	the intent
@@ -63,6 +63,6 @@ Issues and PRs are welcome. If you are proposing a new operation, state transiti
 	•	replay semantics
 	•	failure modes and auditability
 
-## License
+### License
 
 See each repository for licensing details.
