@@ -33,8 +33,8 @@ A typical workspace contains:
 
 If you want to try the protocol locally:
 
-```npm install -g mentu
-mentu init``
+```npm install -g mentu```
+mentu init
 
 mentu capture "Customer reported checkout bug"
 mentu commit "Fix checkout bug" --source <memory_id>
