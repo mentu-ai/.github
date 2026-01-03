@@ -29,21 +29,21 @@ A typical workspace contains:
 - `.mentu/ledger.jsonl` (the ledger)
 - `genesis.key` (optional workspace constitution for identity, permissions, and validation tiers)
 
-## Get started (CLI)
+### Get started (CLI)
 
 If you want to try the protocol locally:
 
-npm install -g mentu
+```npm install -g mentu
 mentu init
 
 mentu capture "Customer reported checkout bug"
 mentu commit "Fix checkout bug" --source <memory_id>
 mentu claim <commitment_id>
 
-// do the work...
+## do the work...
 
 mentu capture "Fixed null check in payment.ts:42" --kind evidence
-mentu close <commitment_id> --evidence <evidence_memory_id>
+mentu close <commitment_id> --evidence <evidence_memory_id>```
 
 ### Repositories
 	•	mentu: the protocol specification and core design
