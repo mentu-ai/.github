@@ -1,4 +1,4 @@
-# Mentu - The mind that understands
+# Mentu
 
 **Traceable work for humans and agents.**
 
